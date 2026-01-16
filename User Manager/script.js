@@ -46,16 +46,16 @@ const userManager = {
             const h3 = document.createElement("h3");
             h3.textContent = user.name;
 
-   
+
             const p = document.createElement("p");
             p.textContent = user.role;
 
- 
+
             const deletebtn = document.createElement("button");
             deletebtn.textContent = "Delete";
             deletebtn.classList.add("btn", "btn-danger",)
 
-       
+
             deletebtn.addEventListener("click", () => {
                 this.removeuser(index);
             })
